@@ -8,7 +8,7 @@ git pull
 sudo useradd -m -d /home/$USER -s /bin/bash $USER
 sudo usermod -aG wheel $USER
 sudo mkdir /home/$USER/.ssh
-sudo cp ~/SYS-265-Tech-Journal/linux/public-keys/id_rsa.pub /home/$USER/.ssh/authorized_keys
+sudo cp SYS-265-Tech-Journal/linux/public-keys/id_rsa.pub /home/$USER/.ssh/authorized_keys
 sudo chmod 700 /home/$USER/.ssh
 sudo chmod 600 /home/$USER/.ssh/authorized_keys
 sudo chown -R $USER:$USER /home/$USER/.ssh
